@@ -1,6 +1,6 @@
 ################################################ SETUP - BASH
 echo "source ~/dotfiles/bash/.bashrc" > ~/.bashrc
-echo "source ~/dotfiels/bash/.bash_profile" > ~/.bash_profile
+echo "source ~/dotfiles/bash/.bash_profile" > ~/.bash_profile
 
 
 ################################################ SETUP - ZSH
