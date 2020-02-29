@@ -1,0 +1,9 @@
+/Users/Alexander/dotfiles/tmux/theme.sh:23: invalid option: status-attr                                                                                                             [0/0]
+/Users/Alexander/dotfiles/tmux/theme.sh:26: invalid option: window-status-fg
+/Users/Alexander/dotfiles/tmux/theme.sh:27: invalid option: window-status-bg
+/Users/Alexander/dotfiles/tmux/theme.sh:31: invalid option: window-status-current-fg
+/Users/Alexander/dotfiles/tmux/theme.sh:32: invalid option: window-status-current-bg
+/Users/Alexander/dotfiles/tmux/theme.sh:36: invalid option: pane-border-fg
+/Users/Alexander/dotfiles/tmux/theme.sh:37: invalid option: pane-active-border-fg
+/Users/Alexander/dotfiles/tmux/theme.sh:40: invalid option: message-bg
+/Users/Alexander/dotfiles/tmux/theme.sh:41: invalid option: message-fg
