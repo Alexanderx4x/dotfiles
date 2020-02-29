@@ -3,7 +3,7 @@ alias sp='PROMPT_DIRTRIM=1'
 alias reload='source ~/.bashrc'
 
 
-## LS Command
+########################### LS Command
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
@@ -11,11 +11,9 @@ else # macOS `ls`
 	colorflag="-G"
 fi
 
-# List all files colorized in long format
-alias l="ls -lF ${colorflag}"
-# List all files colorized in long format, excluding . and ..
-alias la="ls -lAF ${colorflag}"
-# List only directories
-alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
+# List all files colorized in long format, excluding . and ..
+alias lsa="ls -lAF ${colorflag}"
+# List only directories
+alias lsd="ls -lAF ${colorflag} | grep '^d'"

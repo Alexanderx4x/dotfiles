@@ -1,4 +1,6 @@
 echo "BASH_PROFILE"
 
-[ -n "$PS1" ] && source ~/.bashrc;
+if [ -f ~/.dotfiles/bash/.bashrc ]; then
+	[ -n "$PS1" ] && source ~/dotfiles/bash/.bashrc;
 
+fi

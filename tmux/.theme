@@ -20,25 +20,25 @@ set -g status-interval 5
 # set-option -g status-bg colour0
 set-option -g status-fg $tm_color_active
 set-option -g status-bg default
-###### E ### set-option -g status-attr default
+###### OFF ### set-option -g status-attr default
 
 # default window title colors
-###### E ### set-window-option -g window-status-fg $tm_color_inactive
-###### E ### set-window-option -g window-status-bg default
+###### OFF ### set-window-option -g window-status-fg $tm_color_inactive
+###### OFF ### set-window-option -g window-status-bg default
 set -g window-status-format "#I #W"
 
 # active window title colors
-###### E ### set-window-option -g window-status-current-fg $tm_color_active
-###### E ### set-window-option -g window-status-current-bg default
+###### OFF ### set-window-option -g window-status-current-fg $tm_color_active
+###### OFF ### set-window-option -g window-status-current-bg default
 set-window-option -g  window-status-current-format "#[bold]#I #W"
 
 # pane border
-###### E ### set-option -g pane-border-fg $tm_color_inactive
-###### E ### set-option -g pane-active-border-fg $tm_active_border_color
+###### OFF ### set-option -g pane-border-fg $tm_color_inactive
+###### OFF ### set-option -g pane-active-border-fg $tm_active_border_color
 
 # message text
-###### E ### set-option -g message-bg default
-###### E ### set-option -g message-fg $tm_color_active
+###### OFF ### set-option -g message-bg default
+###### OFF ### set-option -g message-fg $tm_color_active
 
 # pane number display
 set-option -g display-panes-active-colour $tm_color_active
@@ -47,9 +47,9 @@ set-option -g display-panes-colour $tm_color_inactive
 # clock
 set-window-option -g clock-mode-colour $tm_color_active
 
-# tm_tunes="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/tunes.scpt | cut -c 1-50)"
+#tm_tunes="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/tunes.scpt | cut -c 1-50)"
 #tm_tunes="#[fg=$tm_color_music]#(osascript -l JavaScript ~/.dotfiles/applescripts/tunes.js)"
-tm_battery="#(~/dotfiles/tmux/battery_indicator.sh)"
+tm_battery="#(~/.dotfiles/tmux/.battery.sh)"
 
 tm_date="#[fg=$tm_color_inactive] %R %d %b"
 tm_host="#[fg=$tm_color_feature,bold]#h"
