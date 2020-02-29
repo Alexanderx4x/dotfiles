@@ -13,3 +13,4 @@ echo "source ~/dotfiles/tmux/.tmux.conf" > ~/.tmux.conf
 
 
 ################################################ SETUP - VIM
+echo "source ~/dotfiles/vim/.vimrc" > ~/.vimrc
