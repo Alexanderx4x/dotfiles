@@ -17,3 +17,7 @@ alias ls="command ls ${colorflag}"
 alias lsa="ls -lAF ${colorflag}"
 # List only directories
 alias lsd="ls -lAF ${colorflag} | grep '^d'"
+
+
+# Tmux 
+alias tmuxsetpath='tmux command-prompt -I '"'"'a -c "#{pane_current_path}"'"'"'';
