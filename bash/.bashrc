@@ -1,4 +1,4 @@
-echo "BACHRC"
+#echo "BACHRC"
 
 # Load the shell dotfiles, and then some:
 for file in ~/.dotfiles/bash/.{path,prompt,exports,aliases,functions,extra}; do
