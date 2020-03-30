@@ -1,0 +1,17 @@
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(255,255,255)'
+visible-name='AlexProfile'
+login-shell=true
+custom-command='/home/alexander/.dotfiles/bash/tbash'
+default-size-rows=34
+default-size-columns=140
+use-system-font=false
+use-custom-command=true
+use-theme-colors=false
+use-transparent-background=true
+font='Monospace 12'
+use-theme-transparency=false
+scrollback-unlimited=true
+background-color='rgb(0,0,0)'
+background-transparency-percent=6
+audible-bell=false
