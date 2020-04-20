@@ -1,2 +1,4 @@
 set -o vi
 export LC_ALL=en_US.UTF-8
+
+PROMPT_COMMAND="history -a ~/.bash_history;"

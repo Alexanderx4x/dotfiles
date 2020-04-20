@@ -1,3 +1,8 @@
 #### copying gnome-terminal profile
 dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
 dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
+
+
+
+### My Public IP
+host myip.opendns.com resolver1.opendns.com
