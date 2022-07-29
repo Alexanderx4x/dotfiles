@@ -149,6 +149,7 @@ endif
 """" Adding lines numbers 
 set number
 set relativenumber
+colorscheme darkblue
 "" set is 			"" 'incsearch'        show partial matches for a search phrase
 
 
