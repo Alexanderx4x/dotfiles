@@ -147,10 +147,12 @@ endif
 """""""""""""""""" ALEX """"""""""""""""""""""
 
 """" Adding lines numbers 
+set hlsearch
 set number
 set relativenumber
 set background=dark
 colorscheme solarized8_high
+
 "" set is 			"" 'incsearch'        show partial matches for a search phrase
 
 
